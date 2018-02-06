@@ -1,0 +1,36 @@
+#menu {
+	position:fixed;
+	left:-110px;
+	top:50px;
+	width:100px;
+	padding:5px;
+	background-color: #207ac2;
+	transition:1s;
+	text-align:center;
+}
+#buttonopen {
+	position:absolute;
+	width:50px;
+	right:-50px;
+	top:0px;
+	
+}
+#makeBG, #reset, #hide, #show {
+    width:100%;
+}
+#buttonclose {
+	position:absolute;
+	width:50px;
+	right:-50px;
+	bottom:0px;
+}
+#bg {
+    position:fixed;
+    left, top:0;
+    width:100vw;
+    height:100vh;
+    z-index:-1;
+    background-size:cover;
+    background-position:bottom;
+
+}
