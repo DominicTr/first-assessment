@@ -1,3 +1,14 @@
+#bg {
+    position:fixed;
+    left: 0px;
+	top: 0px;
+    width:100vw;
+    height:100vh;
+    z-index:-1;
+    background-size:cover;
+    background-position:bottom;
+
+}
 #menu {
 	position:fixed;
 	left:-110px;
@@ -23,15 +34,4 @@
 	width:50px;
 	right:-50px;
 	bottom:0px;
-}
-#bg {
-    position:fixed;
-    left: 0px;
-    top: 0px;
-    width:100vw;
-    height:100vh;
-    z-index:-1;
-    background-size:cover;
-    background-position:bottom;
-
 }
